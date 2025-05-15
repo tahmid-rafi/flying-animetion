@@ -3,9 +3,10 @@
 }
 
 main {
-  background: url(/source/bg.jpg) no-repeat center center/cover;
+  background: url(images/bg.jpg) no-repeat center center/cover;
 }
 main .main {
+  width: 100%;
   height: 100vh;
   display: flex;
   justify-content: center;
@@ -27,4 +28,9 @@ main .main img {
   100% {
     transform: translate(6%, 5%) scale(0.99);
   }
-}/*# sourceMappingURL=style.css.map */
+}
+
+
+h1{
+  color: crimson;
+}
